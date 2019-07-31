@@ -10,6 +10,10 @@ all:
         # $(answer) is the value of the variable answer
         # $(answer ) is the value of the function answer
 
+# you can also ask question, though the answer will always be 42
+questions:
+        @echo $(answer "What is 2 + pi?")
+
 load answer.so
 ```
 
