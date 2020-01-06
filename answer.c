@@ -1,10 +1,11 @@
 #include <string.h>
 #include <stdio.h>
+#include <stdint.h>
 #include <gnumake.h>
 
-#define ANSWER_MIN_ARGUMENTS 0
-#define ANSWER_MAX_ARGUMENTS 1
-#define ANSWER_FLAGS GMK_FUNC_NOEXPAND
+const uint8_t ANSWER_MIN_ARGUMENTS 0
+const uint8_t ANSWER_MAX_ARGUMENTS 1
+const uint8_t ANSWER_FLAGS GMK_FUNC_NOEXPAND
 
 int plugin_is_GPL_compatible;
 
